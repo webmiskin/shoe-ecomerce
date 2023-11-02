@@ -1,0 +1,110 @@
+/* ==================================== Medium Screen - Others ==================================== */
+ @media screen and (min-width: 992px) and (max-width: 1200px) {
+     .social-icons {
+         position: absolute;
+         right: 30px;
+         bottom: 18px;
+    }
+     .pro-item .btn {
+         padding: 10px 10px;
+    }
+     .product-starts {
+         position: relative;
+    }
+     .empty {
+         position: absolute;
+         right: 100px;
+         top: 0;
+    }
+}
+/* ==================================== Small Screen - Tablate ==================================== */
+ @media screen and (min-width: 768px) and (max-width: 991px) {
+     .header-area .menu ul li {
+         margin-right: 8px;
+    }
+     .header-area .menu ul {
+         margin-top: -15px;
+    }
+     .icons-area i {
+         margin-left: 10px;
+    }
+     .header-area .menu ul li a {
+         font-size: 14px;
+    }
+     .header-area .menu {
+         margin-top: 20px;
+    }
+     .product-area .pro-item {
+         margin-top: 20px;
+    }
+     .about-ctn {
+         margin-left: 50px;
+    }
+     .review-card {
+         margin-top: 20px;
+    }
+}
+/* ==================================== Small Screen - Mobile ==================================== */
+ @media screen and (min-width: 576px) and (max-width: 767px) {
+     .social-icons {
+         right: 30px;
+         bottom: 155px;
+    }
+     .social-icons i {
+         color:#fff;
+         background: red;
+         padding: 5px;
+         border-radius: 50%;
+    }
+     .product-area .pro-item {
+         margin-top: 20px;
+    }
+     .review-card {
+         margin-top: 20px;
+    }
+}
+/* ==================================== Xtra Small Screen - Small Mobile ==================================== */
+ @media screen and (max-width: 575px) {
+     .nike-ctn-area {
+         padding-top: 10px;
+    }
+     .nike-left h1 {
+         color: #bb1e9a;
+         font-size: 40px;
+         font-weight: 700;
+    }
+     .nike-left span {
+         font-size: 30px;
+         font-weight: 700;
+    }
+     .nike-left p {
+         font-size: 16px;
+         font-weight: 400;
+         margin-top: 20px;
+    }
+     .social-icons {
+         display: none;
+    }
+     .social-icons i {
+         color:#fff;
+         background: red;
+         padding: 5px;
+         border-radius: 50%;
+    }
+     .product-area .pro-item {
+         margin-top: 20px;
+    }
+     .title h2 {
+         font-size: 40px;
+    }
+     .display-show {
+         flex-direction: column;
+    }
+     .review-card {
+         margin-top: 20px;
+    }
+     .form-area .row {
+         gap: 50px;
+    }
+}
+ 
